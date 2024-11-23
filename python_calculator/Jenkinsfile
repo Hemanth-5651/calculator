@@ -8,7 +8,8 @@ pipeline {
         // }
         stage('Test') {
             steps {
-                sh 'python3 '
+                sh 'cd /var/jenkins_home/workspace/python_calculator/python_calculator/src/test/python'
+                sh 'python3 test_calculator.py'
             }
         }
         stage('Lint') {
