@@ -1,0 +1,3 @@
+autopep8  # Automatically formats Python code to conform to PEP8
+pytest    # Alternative testing framework (optional)
+pytest-cov # For test coverage reports (optional)
